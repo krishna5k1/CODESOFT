@@ -55,11 +55,10 @@ def button_equal():
         else:
             entry.insert(0, "Error")
 
-# Create the main window
+#  main window
 root = tk.Tk()
 root.title("Calculator")
 
-# Entry widget to display the input and result
 entry = tk.Entry(root, width=35, borderwidth=5)
 entry.grid(row=0, column=0, columnspan=4)
 
