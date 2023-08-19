@@ -26,7 +26,7 @@ add_button = tk.Button(root, text="Submit", command=add_task)
 remove_button = tk.Button(root, text="Delete", command=remove_task)
 task_listbox = tk.Listbox(root)
 
-# Place widgets using grid layout
+# grid layout
 task_entry.grid(row=0, column=0, padx=10, pady=10)
 add_button.grid(row=0, column=1, padx=10, pady=10)
 remove_button.grid(row=0, column=2, padx=10, pady=10)
